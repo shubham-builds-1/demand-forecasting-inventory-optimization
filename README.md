@@ -7,7 +7,7 @@ then **replays history to measure the business impact** of those decisions.
 Forecasting is only useful if it changes what a business *does*. This project covers the whole chain:
 data → features → models → inventory policy → business simulation → dashboard + REST API.
 
-> **Live demo:**(https://demand-forecasting-dash.streamlit.app) ·  **Tech:** Python, pandas, NumPy, SciPy, LightGBM, Streamlit, FastAPI, pytest
+> > **Live demo:** [demand-forecasting-dash.streamlit.app](https://demand-forecasting-dash.streamlit.app)  ·  **Tech:** Python, pandas, NumPy, SciPy, LightGBM, Streamlit, FastAPI, pytest
 
 ---
 
