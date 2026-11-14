@@ -1,0 +1,170 @@
+{
+  "assumptions": {
+    "lead_time_days": 7,
+    "review_period_days": 7,
+    "target_service_level": 0.95,
+    "holdout_days": 90
+  },
+  "by_service_level": {
+    "0.9": {
+      "baseline_moving_average": {
+        "fill_rate_%": 99.52019861784261,
+        "units_lost": 6865.14691433634,
+        "avg_inventory_units": 95391.46661142375,
+        "avg_inventory_value": 3061790.0425561564,
+        "holding_cost": 150992.3856603036,
+        "stockout_cost": 95397.40995379377,
+        "ordering_cost": 325000.0,
+        "total_cost": 571389.7956140974
+      },
+      "forecast_driven_policy": {
+        "fill_rate_%": 99.06603675139817,
+        "units_lost": 13363.435689601927,
+        "avg_inventory_units": 84749.36336058802,
+        "avg_inventory_value": 2770062.1054721866,
+        "holding_cost": 136605.8024616421,
+        "stockout_cost": 158946.7405565381,
+        "ordering_cost": 313550.0,
+        "total_cost": 609102.5430181802
+      },
+      "pct_change": {
+        "fill_rate_%": -0.4563514469946125,
+        "units_lost": 94.65622304011221,
+        "avg_inventory_units": -11.156242407076347,
+        "avg_inventory_value": -9.528019002910426,
+        "holding_cost": -9.528019002910415,
+        "stockout_cost": 66.61536265347746,
+        "ordering_cost": -3.523076923076923,
+        "total_cost": 6.600178668495693
+      }
+    },
+    "0.95": {
+      "baseline_moving_average": {
+        "fill_rate_%": 99.7213518026702,
+        "units_lost": 3986.9847883360076,
+        "avg_inventory_units": 101967.00035435124,
+        "avg_inventory_value": 3273922.8626148887,
+        "holding_cost": 161453.73021114522,
+        "stockout_cost": 55935.403798847976,
+        "ordering_cost": 325000.0,
+        "total_cost": 542389.1340099932
+      },
+      "forecast_driven_policy": {
+        "fill_rate_%": 99.3704347253945,
+        "units_lost": 9008.015114290467,
+        "avg_inventory_units": 90254.87854319761,
+        "avg_inventory_value": 2950483.402104446,
+        "holding_cost": 145503.29106268502,
+        "stockout_cost": 106762.75594678978,
+        "ordering_cost": 312950.0,
+        "total_cost": 565216.0470094748
+      },
+      "pct_change": {
+        "fill_rate_%": -0.351897633688415,
+        "units_lost": 125.93552753558454,
+        "avg_inventory_units": -11.486188443763352,
+        "avg_inventory_value": -9.879263320581437,
+        "holding_cost": -9.879263320581448,
+        "stockout_cost": 90.86794533695424,
+        "ordering_cost": -3.707692307692308,
+        "total_cost": 4.2085859705038065
+      }
+    },
+    "0.98": {
+      "baseline_moving_average": {
+        "fill_rate_%": 99.858489547241,
+        "units_lost": 2024.775426316146,
+        "avg_inventory_units": 109479.03744229896,
+        "avg_inventory_value": 3516477.7359761586,
+        "holding_cost": 173415.34040430374,
+        "stockout_cost": 28686.469299967834,
+        "ordering_cost": 325000.0,
+        "total_cost": 527101.8097042716
+      },
+      "forecast_driven_policy": {
+        "fill_rate_%": 99.60214693767294,
+        "units_lost": 5692.604950224917,
+        "avg_inventory_units": 96595.87767871926,
+        "avg_inventory_value": 3157948.6448611296,
+        "holding_cost": 155734.45371917903,
+        "stockout_cost": 67418.01748030125,
+        "ordering_cost": 312600.0,
+        "total_cost": 535752.4711994804
+      },
+      "pct_change": {
+        "fill_rate_%": -0.2567058752143402,
+        "units_lost": 181.14747325741598,
+        "avg_inventory_units": -11.767695500949008,
+        "avg_inventory_value": -10.195687788579244,
+        "holding_cost": -10.195687788579239,
+        "stockout_cost": 135.01678361086022,
+        "ordering_cost": -3.8153846153846156,
+        "total_cost": 1.6411746907228717
+      }
+    },
+    "0.99": {
+      "baseline_moving_average": {
+        "fill_rate_%": 99.91074698549369,
+        "units_lost": 1277.0597999909762,
+        "avg_inventory_units": 114534.58758748918,
+        "avg_inventory_value": 3679843.169498233,
+        "holding_cost": 181471.71794785807,
+        "stockout_cost": 18687.874889934217,
+        "ordering_cost": 325000.0,
+        "total_cost": 525159.5928377924
+      },
+      "forecast_driven_policy": {
+        "fill_rate_%": 99.71207427077066,
+        "units_lost": 4119.730590789495,
+        "avg_inventory_units": 100884.82985355298,
+        "avg_inventory_value": 3298119.530337494,
+        "holding_cost": 162646.9905371915,
+        "stockout_cost": 49001.4799256639,
+        "ordering_cost": 312300.0,
+        "total_cost": 523948.4704628554
+      },
+      "pct_change": {
+        "fill_rate_%": -0.19885019451598837,
+        "units_lost": 222.59496311908072,
+        "avg_inventory_units": -11.917585789104628,
+        "avg_inventory_value": -10.373367058813797,
+        "holding_cost": -10.373367058813777,
+        "stockout_cost": 162.21001699908314,
+        "ordering_cost": -3.907692307692308,
+        "total_cost": -0.23061987088390123
+      }
+    }
+  },
+  "headline": {
+    "baseline_moving_average": {
+      "fill_rate_%": 99.7213518026702,
+      "units_lost": 3986.9847883360076,
+      "avg_inventory_units": 101967.00035435124,
+      "avg_inventory_value": 3273922.8626148887,
+      "holding_cost": 161453.73021114522,
+      "stockout_cost": 55935.403798847976,
+      "ordering_cost": 325000.0,
+      "total_cost": 542389.1340099932
+    },
+    "forecast_driven_policy": {
+      "fill_rate_%": 99.3704347253945,
+      "units_lost": 9008.015114290467,
+      "avg_inventory_units": 90254.87854319761,
+      "avg_inventory_value": 2950483.402104446,
+      "holding_cost": 145503.29106268502,
+      "stockout_cost": 106762.75594678978,
+      "ordering_cost": 312950.0,
+      "total_cost": 565216.0470094748
+    },
+    "pct_change": {
+      "fill_rate_%": -0.351897633688415,
+      "units_lost": 125.93552753558454,
+      "avg_inventory_units": -11.486188443763352,
+      "avg_inventory_value": -9.879263320581437,
+      "holding_cost": -9.879263320581448,
+      "stockout_cost": 90.86794533695424,
+      "ordering_cost": -3.707692307692308,
+      "total_cost": 4.2085859705038065
+    }
+  }
+}

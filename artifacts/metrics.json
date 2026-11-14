@@ -1,0 +1,30 @@
+{
+  "data_source": "synthetic",
+  "n_series": 500,
+  "n_days": 1826,
+  "n_rows": 913000,
+  "holdout_days": 90,
+  "models": {
+    "Seasonal naive (last week)": {
+      "RMSE": 13.559705830961903,
+      "MAE": 10.170422222222221,
+      "MAPE_%": 38.44054850864031,
+      "WAPE_%": 31.986237368354477,
+      "WAPE_improvement_vs_naive_%": 0.0
+    },
+    "Weekday average (8 wks)": {
+      "RMSE": 11.65329608832721,
+      "MAE": 8.766683333333333,
+      "MAPE_%": 33.886376399161975,
+      "WAPE_%": 27.5714427490039,
+      "WAPE_improvement_vs_naive_%": 13.802169253325012
+    },
+    "LightGBM": {
+      "RMSE": 9.737256256833392,
+      "MAE": 7.181187357780212,
+      "MAPE_%": 26.757286315809655,
+      "WAPE_%": 22.585017454899255,
+      "WAPE_improvement_vs_naive_%": 29.391452971446718
+    }
+  }
+}

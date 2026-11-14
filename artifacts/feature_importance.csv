@@ -1,0 +1,17 @@
+feature,importance
+item,7156
+dayofyear,3288
+lag_364,2546
+roll_mean_91,2428
+roll_mean_28,1639
+weekofyear,1604
+roll_mean_7,1230
+store,1104
+dow,1019
+lag_91,759
+lag_98,644
+lag_112,380
+month,363
+roll_std_28,326
+day,164
+is_weekend,150
