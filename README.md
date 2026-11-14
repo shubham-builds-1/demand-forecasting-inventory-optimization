@@ -4,6 +4,8 @@ An end-to-end system that **forecasts daily product demand** for every store-ite
 forecast into a **concrete purchasing decision** ("order 608 units now") using safety-stock theory,
 then **replays history to measure the business impact** of those decisions.
 
+![App screenshot](image.png)
+
 Forecasting is only useful if it changes what a business *does*. This project covers the whole chain:
 data → features → models → inventory policy → business simulation → dashboard + REST API.
 
