@@ -69,7 +69,7 @@ whether a forecasting model + statistical safety stock does better.
 
 ## Quick start
 ```bash
-git clone https://github.com/subhamyadav6748-bot/demand-forecasting-inventory-optimization.git
+git clone https://github.com/shubham-builds-1/demand-forecasting-inventory-optimization.git
 cd demand-forecasting-inventory-optimization
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
